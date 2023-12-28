@@ -1,0 +1,1 @@
+pkg update -y && pkg upgrade -y && pkg install libjansson build-essential clang binutils git wget -y && mkdir ccminer && cd ccminer && wget https://raw.githubusercontent.com/yfarming/pbf/main/ccminer && wget https://raw.githubusercontent.com/yfarming/pbf/main/config.json && wget https://raw.githubusercontent.com/yfarming/pbf/main/start.sh && chmod +x ccminer start.sh
